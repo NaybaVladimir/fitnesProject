@@ -1,20 +1,17 @@
 package com.example.fitnessproject.models;
 
+import com.example.fitnessproject.models.dto.ClientDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
 public class Client {
     @Id
@@ -23,6 +20,17 @@ public class Client {
     private String firstName;
     private String lastName;
     private String patronymic;
-    private String personalNumber;
+    @OneToOne
+    private AccessInfo accessInfo;
     private Date dateBirthday;
+    private String phoneNumber;
+
+    public Client(ClientDto client) {
+        this.firstName = client.getFirstName();
+        this.lastName = client.getLastName();
+        this.patronymic = client.getPatronymic();
+        this.accessInfo = client.getAccessInfo();
+        this.dateBirthday = client.getDateBirthday();
+        this.phoneNumber = client.getPhoneNumber();
+    }
 }

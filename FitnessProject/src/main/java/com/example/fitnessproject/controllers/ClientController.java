@@ -1,6 +1,6 @@
 package com.example.fitnessproject.controllers;
 
-import com.example.fitnessproject.models.Client;
+import com.example.fitnessproject.models.dto.ClientDto;
 import com.example.fitnessproject.services.ClientService;
 import lombok.AllArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
@@ -18,8 +18,8 @@ public class ClientController {
     private final ClientService clientService;
 
     @PostMapping("/saveClient")
-    private ResponseEntity newClient(@RequestBody Client client) {
-        String result = clientService.saveClient(client);
+    private ResponseEntity newClient(@RequestBody ClientDto client) {
+        String result = clientService.save(client);
 
         if (StringUtils.isBlank(result)) {
             return new ResponseEntity<>(HttpStatus.BAD_REQUEST);
