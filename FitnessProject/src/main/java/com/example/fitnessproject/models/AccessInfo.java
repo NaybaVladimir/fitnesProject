@@ -1,5 +1,6 @@
 package com.example.fitnessproject.models;
 
+import com.example.fitnessproject.models.dto.AccessInfoDto;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,4 +22,10 @@ public class AccessInfo {
     private Long personalNumber;
     private Date createDate;
     private Date renewalDate;
+
+    public AccessInfo(AccessInfoDto accessInfoDto) {
+        this.personalNumber = accessInfoDto.getPersonalNumber();
+        this.createDate = accessInfoDto.getCreateDate();
+        this.renewalDate = accessInfoDto.getRenewalDate();
+    }
 }
