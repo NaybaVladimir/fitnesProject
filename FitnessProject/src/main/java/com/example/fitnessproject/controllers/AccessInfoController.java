@@ -1,7 +1,6 @@
 package com.example.fitnessproject.controllers;
 
 import com.example.fitnessproject.models.dto.AddPersonalNumberAccessInfoDto;
-import com.example.fitnessproject.repositories.AccessInfoRepository;
 import com.example.fitnessproject.services.AccessInfoService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -15,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/accessInfo")
 @AllArgsConstructor
 public class AccessInfoController {
-    private final AccessInfoRepository accessInfoRepository;
     private final AccessInfoService accessInfoService;
 
     @PostMapping(value = "/addPersonalNumberAccessInfo")
