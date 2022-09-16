@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2aff940-9e06-4a4e-a122-ed8942c1ce55" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+    <list default="true" id="d2aff940-9e06-4a4e-a122-ed8942c1ce55" name="Changes" comment="xz">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/dto/ClientDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/repositories/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,8 +87,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663322110377</updated>
-      <workItem from="1663322112335" duration="2648000" />
+      <workItem from="1663322112335" duration="3069000" />
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1663324922279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663324922279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="xz">
+      <created>1663324943063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663324943063</updated>
+    </task>
+    <task id="LOCAL-00003" summary="xz">
+      <created>1663324991678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663324991678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +126,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <MESSAGE value="xz" />
+    <option name="LAST_COMMIT_MESSAGE" value="xz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
