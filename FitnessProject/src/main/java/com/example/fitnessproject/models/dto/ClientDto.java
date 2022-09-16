@@ -1,5 +1,6 @@
 package com.example.fitnessproject.models.dto;
 
+import com.example.fitnessproject.models.AccessInfo;
 import com.example.fitnessproject.models.Client;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,8 +26,12 @@ public class ClientDto {
         this.firstName = client.getFirstName();
         this.lastName = client.getLastName();
         this.patronymic = client.getPatronymic();
-        this.accessInfoDto = new AccessInfoDto(client.getAccessInfo());
         this.dateBirthday = client.getDateBirthday();
         this.phoneNumber = client.getPhoneNumber();
+
+        AccessInfo accessInfo = client.getAccessInfo();
+        if (accessInfo != null) {
+            this.accessInfoDto = new AccessInfoDto(accessInfo);
+        }
     }
 }
