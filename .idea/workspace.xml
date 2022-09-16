@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d98e07-e99c-466e-9190-9cbc5dc5d1f2" name="Changes" comment="" />
+    <list default="true" id="d2aff940-9e06-4a4e-a122-ed8942c1ce55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a9c324d-0140-44b0-8f48-b6ede7e35f4d/storage_v2/_src_/database/fit.EYwBAA/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/dto/ClientDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/models/dto/ClientDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -16,53 +48,113 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2EmqO5m0OF7ZouyVnOm68KqrkRi" />
+  <component name="ProjectId" id="2EqTRrbmBEFFBtmFDJYJ8ZSBly6" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/dev/project/fitnesProject",
+    "last_opened_file_path": "C:/dev/project/mdh",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "spring.configuration.checksum": "7f59db38f3e78acd3950527cbd42f928"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
+  <component name="RunManager">
+    <configuration name="FitnessProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="FitnessProject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.fitnessproject.FitnessProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39d98e07-e99c-466e-9190-9cbc5dc5d1f2" name="Changes" comment="" />
-      <created>1663211071923</created>
+      <changelist id="d2aff940-9e06-4a4e-a122-ed8942c1ce55" name="Changes" comment="" />
+      <created>1663322110377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663211071923</updated>
-      <workItem from="1663211073262" duration="179000" />
-      <workItem from="1663211262274" duration="48000" />
-      <workItem from="1663211326200" duration="49000" />
-      <workItem from="1663211381677" duration="49000" />
-      <workItem from="1663211496405" duration="298000" />
-      <workItem from="1663255629512" duration="105000" />
-      <workItem from="1663256187524" duration="253000" />
-      <workItem from="1663256511287" duration="64000" />
+      <updated>1663322110377</updated>
+      <workItem from="1663322112335" duration="2648000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/controllers/ClientController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/controllers/AccessInfoController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/AccessInfoService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FitnessProject/src/main/java/com/example/fitnessproject/services/ClientService.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
